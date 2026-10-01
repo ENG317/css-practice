@@ -1,19 +1,17 @@
 /* SIMPLE TYPE Selector */
 
 /* :ROOT */
-
+:root {
+  background-color: bisque;
+}
 
 /* BODY */
 
-
 /* All Paragraphs? */
-
 
 /* HEADER */
 
-
 /* MAIN */
-
 
 /* With CSS Nesting to:
 
