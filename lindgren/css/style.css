@@ -1,28 +1,27 @@
-/* SIMPLE TYPE Selector */
+header {
+  background-color: blueviolet;
+}
 
-/* :ROOT */
+.cards__container {
 
+  & .card__container {
+    background-color: aqua;
+    max-width: 320px;
 
-/* BODY */
+    & .card__img_container {
 
+      & > img {
+        width: 50%;
+      }
+    }
+  }
+}
 
-/* All Paragraphs? */
+/* .card__img_container img {
+  width: 50%;
+} */
 
-
-/* HEADER */
-
-
-/* MAIN */
-
-
-/* With CSS Nesting to:
-
-  1. Select the class of .section_two, and apply a max-width of 740px and margin: auto.
-
-  2. Write a descendant combinator within the scope of .section_two to select all of the descendant paragraphs within this class. Change the font-size to 1.5rem
-
-  3. Write a child combinator within the scope of .section_two to select only the direct children paragraphs within this class. Change the font-size to 3rem
-
-  4. Write a class selector within the scope of .section_two to select the class of `subheading`. Change the `font-size` to `0.9rem` and the font color with the `color` property to the keyword value of `rebeccapurple`.
-
-====================  */
+/* .cards__container .card__container {
+  background-color: aqua;
+  max-width: 320px;
+} */
