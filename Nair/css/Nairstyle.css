@@ -1,0 +1,44 @@
+/* Page */
+body {
+  background-color: lightgray;
+  color: black;
+}
+
+/* Header */
+header {
+  background-color: lightblue;
+}
+
+/* Main card section */
+.cards__container {
+  background-color: white;
+}
+
+/* Cards */
+.card__container {
+  background-color: lightpink;
+}
+
+/* Headings */
+h1 {
+  color: darkblue;
+}
+
+h2 {
+  color: purple;
+}
+
+/* Paragraphs */
+p {
+  color: darkgreen;
+}
+
+/* Links */
+a {
+  color: red;
+}
+
+/* Images */
+.card__img_container img {
+  width: 200px;
+}
