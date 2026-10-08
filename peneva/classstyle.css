@@ -1,0 +1,19 @@
+header {
+  background-color: teal;
+}
+main {
+  max-width: 1200px;
+  background-color: pink;
+}
+
+.card-container {
+  & .card_container {
+    background-color: aqua;
+    Max-width: 320px;
+  }
+}
+
+.cards_container .card_container {
+  background-color: orange;
+  max-width: 320px;
+} 
