@@ -1,0 +1,17 @@
+header {
+  background-color: blueviolet;
+}
+
+.cards__container {
+
+  & .card__container {
+    background-color: aqua;
+    max-width: 320px;
+
+    & .card__img_container {
+
+      &>img {
+        width: 50%;
+      }
+    }
+  }
