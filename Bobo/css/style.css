@@ -1,0 +1,28 @@
+header {
+  background-color: blueviolet;
+}
+
+main {
+  max-width: 700px;
+  background-color: aqua;
+}
+
+.cards_container {
+  & .card_container {
+    background-color: aquamarine;
+    max-width: 320px;
+
+    & .card_img_container {
+      & > img
+    }
+  }
+}
+
+.card_img_container img {
+  width: 50%;
+}
+
+/* .cards_container .card_container {
+  background-color: aqua;
+  max-width: 320px;
+} */
