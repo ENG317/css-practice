@@ -1,0 +1,18 @@
+header {
+  background-color: purple;
+}
+
+main {
+  max-width: 700px;
+}
+
+.cards_container {
+  & .card_container {
+    background-color: lightblue;
+    max-width: 320px;
+  }
+}
+
+.card_container_img img {
+  width: 50px;
+}
