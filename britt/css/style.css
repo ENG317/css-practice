@@ -1,0 +1,8 @@
+header {
+  background-color: lightpink;
+}
+
+.cards__container {
+  background-color: lightgreen;
+  max-width: 320px;
+}
