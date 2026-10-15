@@ -12,9 +12,24 @@ Repo for practicing HTML and CSS together in class. It will also include our 5-m
 
 Commit and push your completed and saved changes, based on the below instructions, to the remote origin on Github by 1:35pm.
 
-Submit "Complete" message in Moodle before 1:50pm
+### WEEK 9, DAY 2 - Thu, 10/15 - Section of Cards
 
-### Tue, 10/13 - Typography Page
+In **YOUR** folder,
+
+1. Create a new HTML document: `cards.html`
+
+2. Create a new CSS document, `cards.css`
+    - **NOTE**: Be sure to organize this file whereever your CSS files are located.
+
+3. In the `head`, link `cards.css` to `cards.html`
+
+4. In the `body` > `main` > `section`, create your interpretation of the following [wireframe](assets/images/w9d2-wireframe-card-challenge.jpg) of 4 cards, where each card's content is contained by a `div`:
+  - **HINT**: *Create 1 card, then copy and paste it subsequently 3 more times thereafter the original version.*
+  - <img src="assets/images/w9d2-wireframe-card-challenge.jpg" width="500px" />
+
+5. Commit and push your completed and saved changes to the remote origin on Github by 1:35pm.
+
+### WEEK 9, DAY 1 - Tue, 10/13 - Typography Page
 
 In **YOUR** folder,
 
