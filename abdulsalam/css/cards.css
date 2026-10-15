@@ -1,0 +1,11 @@
+.card1 {
+  width: 500px;
+  font-size: 18px;
+  float: left;
+}
+
+.card2 {
+  width: 500px;
+  font-size: 18px;
+  float: right;
+}
