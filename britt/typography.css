@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Slabo+13px&display=swap");
+
+:root {
+  --copyFontFamily: "Inter", sans-serif;
+  --headingFontFamily: "Slabo 13px", serif;
+
+  font-size: 18px;
+}
+
+/* TYPOGRAPHY */
+
+/* Font Families */
+body {
+  font-family: var(--copyFontFamily);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--headingFontFamily);
+}
+
+/* Font Weight & Sizing */
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+h2 {
+  font-size: 2.4082rem;
+}
+h3 {
+  font-size: 1.9332rem;
+  font-style: italic;
+}
+h4 {
+  font-size: 1.5518rem;
+}
+h5 {
+  font-size: 1.2457rem;
+}
+p {
+  font-size: 1rem;
+}
+small {
+  font-size: 0.8027rem;
+}
+
+/* Emphasis and Bolding */
+strong {
+  font-weight: 500;
+}
+em {
+  font-style: italic;
+}
+
+/* Emphasis and Bolding */
