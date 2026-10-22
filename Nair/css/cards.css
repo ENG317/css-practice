@@ -1,0 +1,46 @@
+```css
+/* CSS reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  padding: 24px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  line-height: 1.6;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 600px) {
+  section {
+    grid-template-columns: 1fr;
+  }
+}
+```
