@@ -1,19 +1,20 @@
 /* SIMPLE TYPE Selector */
 
 /* :ROOT */
-
+:root {
+  background-color: purple;
+}
 
 /* BODY */
-
+body {
+  background-color: aqua;
+}
 
 /* All Paragraphs? */
 
-
 /* HEADER */
 
-
 /* MAIN */
-
 
 /* With CSS Nesting to:
 
