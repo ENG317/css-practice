@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Slabo+13px&display=swap");
+
+:root {
+  --copyFontFamily: "Slabo 13px", sans-serif;
+  --headingFontFamily: "Google Sans Flex", serif;
+}
+
+/* TYPOGRAPHY */
+/* Font Families */
+body {
+  font-family: var(--copyFontFamily);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--headingFontFamily);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
