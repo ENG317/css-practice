@@ -7,13 +7,13 @@
 /* GRID */
 
 /* Define grid area keywords */
-.header         { grid-area: header; }
-.nav__left      { grid-area: nav_left; }
-.sidebar__right { grid-area: sidebar_right; }
-.content__1     { grid-area: content_1; }
-.content__2     { grid-area: content_2; }
-.content__3     { grid-area: content_3; }
-.footer         { grid-area: footer; }
+.header         { grid-area: hd; }
+.nav__left      { grid-area: nl; }
+.sidebar__right { grid-area: sb; }
+.content__1     { grid-area: c1; }
+.content__2     { grid-area: c2; }
+.content__3     { grid-area: c3; }
+.footer         { grid-area: fr; }
 
 /* 
   - Define grid
@@ -23,13 +23,22 @@
 */
 .container {
   display: grid;
-  grid-template-columns: 200px 1fr 200px;
-  grid-template-rows: 50vh repeat(4, 1fr) auto;
+  grid-template-columns: 2.5ch repeat(3, minmax(25px, 500px)) 180px 2.5ch;
+  grid-template-rows: 40vh repeat(4, 1fr) auto;
   grid-gap: 1rem;
   grid-template-areas:
-    "header header header"
-    "nav_left content_1 sidebar_right"
-    "nav_left content_2 sidebar_right"
-    "nav_left content_3 sidebar_right"
-    "footer footer footer"; 
+    "hd hd hd hd hd hd"
+    ". nl c1 c1 sb ."
+    ". nl c2 c2 sb ."
+    ". nl c3 c3 sb ."
+    ". fr fr fr fr .";
+}
+
+.hdr_flex_container {
+  display: flex;
+  gap: 1rem;
+
+  & img {
+    display: block;
+  }
 }
