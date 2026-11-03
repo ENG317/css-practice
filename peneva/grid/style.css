@@ -1,0 +1,75 @@
+:root {
+  font-size: 18px;
+}
+
+header {
+  margin: 3rem 0;
+}
+
+/* GRID VALUES & PLACEMENT PRACTICE =======
+
+  1. Values for template values:
+
+    - auto: Range between the min-width
+        and min-height values of item.
+        Similar to minmax(min-content, max-content)
+
+    - min-content: Minimal content contribution defined
+        by the size of the largest WORD among all
+        of the sentences in the grid items.
+
+    - max-content: MAXimal content contribution defined
+        by the size of the largest SENTENCE among all
+        of the sentences in the grid items.
+
+    - fr: Fraction unit that computes the
+        “fraction of the free space”
+
+    - px: Usual px values can be used as
+        absolute values for tracks.
+        Be careful and use these sparingly.
+
+  2. Helpful shorthand notation:
+    - minmax()
+    - repeat()
+
+  3. Grid item placement
+    - grid-column
+    - grid-row
+
+======================================== */
+
+.grid__testing_container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background-color: pink;
+
+  & > div {
+    border:chocolate solid 2px;
+    /* height: 50px; */
+  }
+
+  & .gi_fc {
+    grid-column: 2 / 4;
+
+    background-color: white;
+    color: black;
+  }
+
+  & .gi_sc {
+    grid-row: 2 / 3;
+    grid-column: 2 / 7;
+
+    background-color: white;
+    color: black;
+  }
+
+  & .big_chocolate {
+    grid-column: 7 / -2;
+    grid-row: 2 / 3;
+
+    background-color: chocolate;
+    color: white;
+  }
+}
